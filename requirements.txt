@@ -1,0 +1,11 @@
+crawl4ai==0.4.248
+schedule
+requests
+numpy
+faiss-cpu
+llama-index-embeddings-ollama
+chromadb
+legacy-cgi
+ollama
+smolagents<1.7.0
+python-dotenv

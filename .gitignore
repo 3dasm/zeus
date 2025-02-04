@@ -1,0 +1,33 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore AI model weights, embeddings, and other large files
+*.bin
+*.model
+*.weights
+
+# Ignore logs
+logs/
+
+# Ignore generated documentation
+docs/*
+
+# Ignore temporary files
+*~
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore test data or outputs
+test_data/
+output/
+
+# Ignore build directories
+build/
+dist/
+
+.gradio
+chroma_db/
+*.db
