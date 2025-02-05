@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 import os
-import json
 import asyncio
-import datetime
+import chromadb
+
 from pydantic import BaseModel
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from crawl4ai.extraction_strategy import LLMExtractionStrategy
 from llama_index.embeddings.ollama import OllamaEmbedding
-import chromadb
-from chromadb.config import Settings
 from dotenv import load_dotenv
 
 load_dotenv()

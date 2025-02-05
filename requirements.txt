@@ -5,7 +5,7 @@ numpy
 faiss-cpu
 llama-index-embeddings-ollama
 chromadb
-legacy-cgi
+legacy-cgi; sys_platform != 'darwin'
 ollama
-smolagents<1.7.0
+smolagents[gradio]
 python-dotenv
